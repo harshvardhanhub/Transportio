@@ -384,6 +384,28 @@ body {
 }
 
 
+/* Video Section */
+.section.video {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio for video */
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  
+}
 
 
 
@@ -1316,7 +1338,7 @@ body {
   }
   
   header {
-    background-color: #51d17c;
+    background-color: #0bd74f;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
   }
@@ -1359,7 +1381,12 @@ body {
     margin-bottom: 30px;
     border-radius: 5px;
   }
-  
+  .rental-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+} 
   .rental-item a.truck-link {
     display: block;
     margin-bottom: 20px;
@@ -1378,7 +1405,7 @@ body {
   .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff7070;
+    background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     border-radius: 3px;
@@ -1393,16 +1420,13 @@ body {
    * FOOTER
    */
 
-   footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #000;
+  .footer{
+    background-color: #000000;
     text-align: center;
     padding: 20px;
     font-size: 14px;
     color: #00ff2a;
   }
-
   
+
+}
